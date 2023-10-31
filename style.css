@@ -1,0 +1,122 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: 'Poppins', sans-serif;
+}
+
+.container {
+ display: flex;
+ background: #00203A;
+ width: 100%;
+ height: 100vh;
+ justify-content: center;
+ align-items: flex-start;
+ flex-direction: column;
+}
+
+h1 {
+ font-size: 30px;
+}
+
+.container-elements {
+ margin-left: 50px;
+}
+
+.first {
+ color: #F7F7FA;
+}
+
+.second {
+ color: #09855A;
+ text-decoration: underline;
+}
+
+.container-elements button {
+ padding: 15px;
+ background-color: #09855A;
+ color: #F7F7FA;
+ font-weight: lighter;
+ border-radius: 10px;
+ font-size: 20px;
+ cursor: pointer;
+ margin-top: 10px;
+ border-color: #09855A;
+}
+
+.input-container {
+ position: relative;
+ width: 200px;
+ /* Adjust the width as needed */
+ margin-top: 10px;
+}
+
+.input-field {
+ width: 100%;
+ margin: 20px 0;
+ padding: 15px 0;
+ font-size: 20px;
+ border-radius: 5px;
+ outline: none;
+}
+
+.input-icon {
+ position: absolute;
+ top: 35px;
+ right: 5px;
+ cursor: pointer;
+}
+
+.input-icon img {
+ width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+
+ /* Your CSS styles for screens with a minimum width of 768 pixels */
+ h1 {
+  font-size: 60px;
+ }
+
+ .container-elements {
+  margin-left: 60px;
+ }
+
+  .container-elements button {
+   padding: 20px;
+   background-color: #09855A;
+   color: #F7F7FA;
+   font-weight: lighter;
+   border-radius: 15px;
+   font-size: 40px;
+   cursor: pointer;
+   margin-top: 10px;
+   border-color: #09855A;
+  }
+ 
+  .input-container {
+   position: relative;
+   width: 600px;
+   /* Adjust the width as needed */
+   margin-top: 10px;
+  }
+ 
+  .input-field {
+   width: 100%;
+   margin: 20px 0;
+   padding: 20px 0;
+   font-size: 50px;
+   border-radius: 5px;
+   outline: none;
+  }
+ 
+  .input-icon {
+   position: absolute;
+   top: 45px;
+   right: 20px;
+   cursor: pointer;
+  }
+ 
+  .input-icon img {
+   width: 50px;
+  }
+}
